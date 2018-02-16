@@ -1,0 +1,30 @@
+{
+  "name": "azureiot",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "description": "Azure IoT connection",
+  "author": "Pradyumna Chakicherla <pradyumna.chakicherla@isteer.com>",
+  "inputs":[
+    {
+      "name": "sharedAccessKey",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "hostName",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "deviceID",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output",
+      "type": "string"
+    }
+  ]
+}
