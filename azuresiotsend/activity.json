@@ -1,0 +1,21 @@
+{
+  "name": "azuresiotsend",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "ref": "github.com/pradyuz3rocool/azureiot/azureiotsend",
+  "title":"AZURE IOT SEND",
+  "description": "sends a message to the IOTHUb",
+  "author": "Pradyumna Chakicherla<pradyumna.chakicherla@isteer.com>",
+  "inputs":[
+    {
+      "name": "connectionString",
+      "type": "string"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output",
+      "type": "string"
+    }
+  ]
+}
